@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bank-App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="branch">BRUNCH</string>
+    <string name="go">GİT</string>
+    <string name="address">Toros Mah. Turgut Özal Bulv. 78182 Sokak İlsu Civan Apt. Nr.:2 Çukurova/ADANA 01170</string>
+    <string name="code">S1660240</string>
+    <string name="deposit_withdraw_money">Abheben und Einzahlen</string>
+    <string name="pozanti_branch">POZANTI-ZWEIG</string>
+    <string name="seyhan">SEYHAN</string>
+    <string name="adana">ADANA</string>
+    <string name="adana_region">ADANA-REGION</string>
+    <string name="search">Wir kaufen</string>
+    <string name="no_branch_found_to_list">Keine Filiale zum Auflisten gefunden</string>
+    <string name="please_check_your_internet">Bitte überprüfe deine Internetverbindung</string>
+    <string name="branches">GEÄST</string>
+</resources>

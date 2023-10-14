@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398524314177",
+    "project_id": "bankapp-4dd05",
+    "storage_bucket": "bankapp-4dd05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398524314177:android:0c761954a9e71b2155ccc0",
+        "android_client_info": {
+          "package_name": "com.olmez.bankapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfKLCK0KkWYFAuaqiSaod5taElrMJk24Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

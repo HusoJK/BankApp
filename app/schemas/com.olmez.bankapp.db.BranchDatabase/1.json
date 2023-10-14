@@ -1,0 +1,106 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "6a4f985c3cac735e55a7a04a81177bc7",
+    "entities": [
+      {
+        "tableName": "Branch",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`ID` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `dc_SEHIR` TEXT NOT NULL, `dc_ILCE` TEXT NOT NULL, `dc_BANKA_SUBE` TEXT NOT NULL, `dc_BANKA_TIPI` TEXT NOT NULL, `dc_BANK_KODU` TEXT NOT NULL, `dc_ADRES_ADI` TEXT NOT NULL, `dc_ADRES` TEXT NOT NULL, `dc_POSTA_KODU` TEXT NOT NULL, `dc_ON_OFF_LINE` TEXT NOT NULL, `dc_ON_OFF_SITE` TEXT NOT NULL, `dc_BOLGE_KOORDINATORLUGU` TEXT NOT NULL, `dc_EN_YAKIM_ATM` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "ID",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "city",
+            "columnName": "dc_SEHIR",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "district",
+            "columnName": "dc_ILCE",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bankBranch",
+            "columnName": "dc_BANKA_SUBE",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bankType",
+            "columnName": "dc_BANKA_TIPI",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bankCode",
+            "columnName": "dc_BANK_KODU",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "addressName",
+            "columnName": "dc_ADRES_ADI",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "address",
+            "columnName": "dc_ADRES",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "postCode",
+            "columnName": "dc_POSTA_KODU",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "onOffLine",
+            "columnName": "dc_ON_OFF_LINE",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "onOffSite",
+            "columnName": "dc_ON_OFF_SITE",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "regionalCoordinator",
+            "columnName": "dc_BOLGE_KOORDINATORLUGU",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nearestAtm",
+            "columnName": "dc_EN_YAKIM_ATM",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "ID"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '6a4f985c3cac735e55a7a04a81177bc7')"
+    ]
+  }
+}
